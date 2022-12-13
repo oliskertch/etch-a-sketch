@@ -1,9 +1,9 @@
 # etch-a-sketch
 
-##Project: Etch-A-Sketch
-##Foundations Course
+## Project: Etch-A-Sketch
+## Foundations Course
 
-##Introduction
+## Introduction
 
 In this project, you’ll be creating a pretty neat toy for your portfolio to flex your DOM manipulation skills. You’re going to build a browser version of something between a sketchpad and an Etch-A-Sketch.
 
@@ -11,7 +11,7 @@ This project should not be easy for you. You’ll probably have to Google freque
 
 If you get totally stuck, drop by the chatroom. Someone will be there to point you in the right direction.
 
-###Assignment
+### Assignment
 
 Don’t forget to commit early & often! You can reference the Commit Message lesson here!
 
@@ -58,6 +58,6 @@ You should be able to enter 64 and have a brand new 64x64 grid pop up without ch
 
 Push your project to GitHub!
 
-##Extra Credit
+## Extra Credit
 
 Instead of just changing the color of a square from black to white (for example), have each pass through with the mouse change it to a completely random RGB value. Then try having each pass just add another 10% of black to it so that only after 10 passes is the square completely black.
