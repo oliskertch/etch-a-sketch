@@ -1,15 +1,10 @@
 function loadPage() {
-
-
   const gridSize = window.prompt("Grid Size?");
 
   const etchScreenDiv = document.createElement("div");
   etchScreenDiv.className = "etch_screen";
 
-
-
   function createInnerDivElement() {
-
     const innerColumnDiv = document.createElement("div");
     innerColumnDiv.className = "inner_container";
 
@@ -19,17 +14,14 @@ function loadPage() {
   }
 
   function createInnerPixelElement() {
-
     const innerPixelDiv = document.createElement("div");
     innerPixelDiv.className = "pixel_element";
     return (innerPixelDiv);
   }
 
-  for (let i = 0; i < gridSize; i++)
-    etchScreenDiv.appendChild(createInnerDivElement(i));
+  for (let i = 0; i < gridSize; i++) etchScreenDiv.appendChild(createInnerDivElement(i));
 
   document.body.appendChild(etchScreenDiv);
-
 
   let pixels = document.getElementsByClassName("pixel_element");
 
@@ -66,9 +58,6 @@ function loadPage() {
 
   document.body.appendChild(button_div);
 }
-
-
-
 
 window.onload = loadPage;
 
