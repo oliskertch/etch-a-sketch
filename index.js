@@ -1,5 +1,9 @@
 function loadPage() {
-  const gridSize = window.prompt("Grid Size?");
+  let gridSize = 0;
+ 
+  while (gridSize < 1 || gridSize > 100 || isNaN(gridSize)) {
+    gridSize = window.prompt("Enter a grid side length between 1-100");
+  }
 
   const etchScreenDiv = document.createElement("div");
   etchScreenDiv.className = "etch_screen";
